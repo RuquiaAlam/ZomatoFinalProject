@@ -4,7 +4,7 @@ const User = require("../model/userModel");
 const router = express.Router();
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const config = require("../src/config");
+const config = require("../config");
 router.use(bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());
 
