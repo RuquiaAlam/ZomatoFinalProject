@@ -12,7 +12,7 @@ const parseJson = express.json({ extended: false });
 app.set("views", "./views");
 app.set("view engine", "ejs");
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
   res.render("index");
